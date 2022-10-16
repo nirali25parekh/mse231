@@ -1,0 +1,43 @@
+{
+	"data": {
+		"author_id": "1087135135563051008", 
+		"created_at": "2022-10-13T06:49:36.000Z",
+		"edit_history_tweet_ids": ["1580450664861159425"],
+		"id": "1580450664861159425",
+		"referenced_tweets": [{
+			"type": "replied_to",
+			"id": "1580450422950891520" 
+		}],
+		"text": "n then falling asleep during ur 15 min danny , kurtis , and drew youtube video 👍"
+	},
+	"includes": {
+		"users": [{
+			"description": "shawarma enthusiast",
+			"id": "1087135135563051008",
+			"name": "manha",
+			"username": "manibagel"
+		}],
+		"tweets": [{
+			"author_id": "1087135135563051008",
+			"created_at": "2022-10-13T06:49:36.000Z",
+			"edit_history_tweet_ids": ["1580450664861159425"],
+			"id": "1580450664861159425",
+			"referenced_tweets": [{
+				"type": "replied_to",
+				"id": "1580450422950891520"
+			}],
+			"text": "n then falling asleep during ur 15 min danny , kurtis , and drew youtube video 👍"
+		}, 
+        {
+			"author_id": "1087135135563051008",
+			"created_at": "2022-10-13T06:48:38.000Z",
+			"edit_history_tweet_ids": ["1580450422950891520"],
+			"id": "1580450422950891520",
+			"text": "studying all night bc ur brain doesnt work in the morning is absolute academic weapon"
+		}]
+	},
+	"matching_rules": [{
+		"id": "1580450651489779712",
+		"tag": ""
+	}]
+}

@@ -10,7 +10,7 @@ import time
 
 from tweepy import Stream, Client, StreamingClient, StreamRule, Paginator
 
-MAX_TWEETS = 20
+MAX_TWEETS = 80000
 
 class CustomStreamingClient(StreamingClient):
     total_tweets = 0
@@ -130,7 +130,7 @@ if __name__ == "__main__":
             time.sleep(1)
             # Track specific tweets
             twitter_streaming_client.add_rules(StreamRule(query))
-            twitter_streaming_client.filter(tweet_fields='created_at', expansions=['author_id', 'referenced_tweets.id.author_id'])
+            twitter_streaming_client.filter(tweet_fields='created_at', user_fields=['name','username', 'description'], expansions=['author_id', 'referenced_tweets.id.author_id'])
         else:
             # Sample random tweets
             while True:
