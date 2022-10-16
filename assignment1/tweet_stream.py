@@ -10,7 +10,7 @@ import time
 
 from tweepy import Stream, Client, StreamingClient, StreamRule, Paginator
 
-MAX_TWEETS = 80000
+MAX_TWEETS = 500000
 
 class CustomStreamingClient(StreamingClient):
     total_tweets = 0
