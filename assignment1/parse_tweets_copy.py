@@ -51,6 +51,15 @@ from gzip import GzipFile
 
 serial, pydata, jdata = None, None, None
     
+file = import gzip
+
+# file = "tweets_work_sample.gz"
+file = "1hourtweet.gz"
+
+with gzip.open(file,'rb') as fin:        
+    for line in fin:        
+        print('got line', line)
+        
 with open('tweets_work_sample.gz', 'rb') as f:
     serial = gzip.decompress(f.read())
     
